@@ -12,6 +12,7 @@ type props = {
   questionNr: number;
   totalQuestions: number;
 };
+console.log("changes for conflict");
 
 const QuestionCard: React.FC<props> = ({
   question,
