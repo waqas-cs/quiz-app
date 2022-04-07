@@ -13,6 +13,9 @@ type props = {
   totalQuestions: number;
 };
 
+console.log('new changes for conflicts')
+console.log('changes from osama branch')
+
 const QuestionCard: React.FC<props> = ({
   question,
   answers,
