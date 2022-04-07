@@ -9,7 +9,7 @@ type props = {
   answers: string[];
   callback: (e: React.MouseEvent<HTMLButtonElement>) => void;
   userAnswer: AnswerObject | undefined;
-  questionNr: string;
+  questionNr: number;
   totalQuestions: number;
 };
 
