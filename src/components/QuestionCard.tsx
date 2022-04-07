@@ -14,6 +14,9 @@ type props = {
 };
 console.log("changes for conflict");
 
+console.log('new changes for conflicts')
+console.log('changes from osama branch')
+
 const QuestionCard: React.FC<props> = ({
   question,
   answers,
